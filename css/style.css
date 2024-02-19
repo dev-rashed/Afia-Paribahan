@@ -1,3 +1,36 @@
 #booking {
     border-radius: 88px 88px 0 0;
 }
+
+.bus-structure .serial span {
+    font-size: 18px;
+    width: 50px;
+    height: 54px;
+    line-height: 55px;
+}
+
+.bus-structure .serial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.bus-structure .serial span:first-child {
+    margin-top: 0;
+}
+
+.bus-structure .first-col span,
+.bus-structure .second-col span {
+    padding: 15px;
+    text-align: center;
+    background: #F7F8F8;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.bus-structure .first-col span.selected,
+.bus-structure .second-col span.selected {
+    color: white;
+    background: #1DD100;
+}
